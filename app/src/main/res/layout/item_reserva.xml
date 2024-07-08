@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_reserva_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID de la reserva" />
+
+    <TextView
+        android:id="@+id/tv_reserva_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID del usuario" />
+
+    <TextView
+        android:id="@+id/tv_reserva_restaurant_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID del restaurante" />
+
+    <TextView
+        android:id="@+id/tv_reserva_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de la reserva" />
+
+    <TextView
+        android:id="@+id/tv_reserva_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora de la reserva" />
+
+    <TextView
+        android:id="@+id/tv_reserva_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de personas" />
+
+    <TextView
+        android:id="@+id/tv_reserva_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado de la reserva" />
+
+    <TextView
+        android:id="@+id/tv_reserva_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de creación" />
+
+    <TextView
+        android:id="@+id/tv_reserva_updated_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de actualización" />
+
+</LinearLayout>
