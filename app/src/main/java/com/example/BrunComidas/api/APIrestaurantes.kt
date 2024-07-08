@@ -3,6 +3,7 @@ package com.example.BrunComidas.api
 
 import com.example.BrunComidas.model.login.Menus
 import com.example.BrunComidas.model.login.Producto
+import com.example.BrunComidas.model.login.Reservation
 import com.example.BrunComidas.model.login.Restaurant
 import com.example.BrunComidas.model.login.Restaurantes
 import retrofit2.Call
@@ -24,6 +25,10 @@ interface APIrestaurantes {
     fun getMenuById(
         @Path("id") id: Int
     ): Call<Menus>
+
+
+    @GET("/api/reservations")
+    fun getReservations(): Call<List<Reservation>>
 
     @GET("restaurants/{id}/menu")
     fun getRestaurantMenu(

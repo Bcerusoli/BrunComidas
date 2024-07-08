@@ -74,6 +74,11 @@ class ListaRestauranteActivity : AppCompatActivity(), RestauranteAdapter.OnResta
                 startActivity(intent)
                 true
             }
+            R.id.action_ver_reservas -> {
+                val intent = Intent(this, ReservasActivity::class.java)
+                startActivity(intent)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

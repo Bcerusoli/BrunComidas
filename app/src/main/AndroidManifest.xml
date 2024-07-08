@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reservatron"
         tools:targetApi="31">
+        <activity android:name=".ui.main.ReservasActivity" />
         <activity android:name=".ui.main.MenuActivity" />
         <activity android:name=".ui.main.FullScreenImageActivity" />
         <activity

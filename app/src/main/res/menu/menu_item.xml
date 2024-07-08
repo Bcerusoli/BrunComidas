@@ -21,4 +21,9 @@
         android:title="Ver restaurantes"
         android:orderInCategory="400"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ver_reservas"
+        android:title="Ver reservas"
+        android:orderInCategory="500"
+        app:showAsAction="never" />
 </menu>
